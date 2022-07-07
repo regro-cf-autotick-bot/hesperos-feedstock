@@ -1,5 +1,5 @@
 {% set name = "hesperos" %}
-{% set version = "0.1.13" %}
+{% set version = "0.1.24" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hesperos-{{ version }}.tar.gz
-  sha256: ffb9887ed19a97acf0b5536a84b6db932c2eb492303b11204b8314ce072af453
+  sha256: 60cfa78594d5b76c86d228023a5beed3e96bc62cc239c1b710e85a3859bebea2
   patches:
     - setup.patch
 
