@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hesperos-{{ version }}.tar.gz
   sha256: 08d45a9ac3943b29a9febf4a85f61e232836e47a312fe6903003928f16b5f8a5
-  patches:
-    - setup.patch
 
 build:
   noarch: python
