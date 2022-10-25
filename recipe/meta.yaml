@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hesperos-{{ version }}.tar.gz
   sha256: eee6e2c7fe07030b10859f87b15804a842441c536390e4a9581cf0722b53511a
-  patches:
-    - setup.patch
 
 build:
   noarch: python
@@ -20,6 +18,7 @@ requirements:
   host:
     - pip
     - python >=3.8
+    - setuptools-scm
   run:
     - imageio-ffmpeg
     - napari <0.4.15
