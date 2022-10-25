@@ -1,5 +1,5 @@
 {% set name = "hesperos" %}
-{% set version = "0.1.30" %}
+{% set version = "0.1.31" %}
 
 package:
   name: {{ name|lower }}
@@ -7,9 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hesperos-{{ version }}.tar.gz
-  sha256: dc84ec7da8990ab57248661c927995af89eae70fb582e6fae7483c8c77536c6b
-  patches:
-    - setup.patch
+  sha256: 08d45a9ac3943b29a9febf4a85f61e232836e47a312fe6903003928f16b5f8a5
 
 build:
   noarch: python
@@ -20,6 +18,7 @@ requirements:
   host:
     - pip
     - python >=3.8
+    - setuptools-scm
   run:
     - imageio-ffmpeg
     - napari <0.4.15
