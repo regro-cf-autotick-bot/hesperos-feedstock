@@ -1,5 +1,5 @@
 {% set name = "hesperos" %}
-{% set version = "0.1.40" %}
+{% set version = "0.1.39" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hesperos-{{ version }}.tar.gz
-  sha256: 5a30a0098182308839ff721ca72516b0d362359c5446f8584f76a4569808c054
+  sha256: 363bf27e0067cfb1ba472a5f693b4067ca87018d5c6d77eb98988622b7ba68ee
 
 build:
   noarch: python
@@ -29,6 +29,7 @@ requirements:
     - qtpy
     - scikit-image
     - scikit-learn
+    - scipy
     - simpleitk
     - tifffile
 
