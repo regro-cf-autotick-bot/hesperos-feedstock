@@ -29,6 +29,7 @@ requirements:
     - qtpy
     - scikit-image
     - scikit-learn
+    - scipy
     - simpleitk
     - tifffile
 
