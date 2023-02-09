@@ -1,5 +1,5 @@
 {% set name = "hesperos" %}
-{% set version = "0.1.39" %}
+{% set version = "0.1.41" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hesperos-{{ version }}.tar.gz
-  sha256: 363bf27e0067cfb1ba472a5f693b4067ca87018d5c6d77eb98988622b7ba68ee
+  sha256: c53801685aec75548e771c38697262cd15d4b4dd967eaad79778d79158d155a0
 
 build:
   noarch: python
