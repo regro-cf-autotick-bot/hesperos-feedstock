@@ -1,11 +1,11 @@
-About hesperos
-==============
+About hesperos-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hesperos-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/chgodard/hesperos
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hesperos-feedstock/blob/main/LICENSE.txt)
 
 Summary: A plugin to manually or semi-automatically segment medical data and correct previous segmentation data.
 
